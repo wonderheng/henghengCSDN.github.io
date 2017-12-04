@@ -1,3 +1,7 @@
+<p>
+
+<p>
+
 ---
 layout: page
 title: 关于我 
@@ -21,5 +25,4 @@ title: 关于我
 <p> 
 
 
-{% include comments.html %}
 
