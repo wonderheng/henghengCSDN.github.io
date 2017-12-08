@@ -1,6 +1,3 @@
-<p>
-
-<p>
 
 ---
 layout: page
