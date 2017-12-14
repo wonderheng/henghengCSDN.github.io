@@ -74,7 +74,7 @@ git branch 查看时如出现
 
 **修改和提交**
 
->*git status   				查看状态
+>* git status   			查看状态
 >* git add .    			跟踪所有改动过的文件
 >* git add <file>			跟踪指定文件
 >* git mv <old> <new>		文件改名
