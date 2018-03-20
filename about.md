@@ -16,4 +16,4 @@ title: 关于我
 <p>
 <span style="color: #0000ff;">邮箱：995107866@qq.com</span>
 <p>
-　　　　　  <span style="color: #ff9900;">微博和Github</span>　　　　　　　<span style="color: #ffcc00;">戳下面</span>　<span style="color: red;">↓</span>　<span style="color: red;">↓</span>　<span style="color: red;">↓</span> 
+　　　　　  　　　<span style="color: #ff9900;">微博和Github</span>　<span style="color: #ffcc00;">戳下面</span>　<span style="color: red;">↓</span>　<span style="color: red;">↓</span>　<span style="color: red;">↓</span> 
