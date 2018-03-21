@@ -9,9 +9,9 @@ avatarDesc: 爱学习 / 爱生活
 url: "http://www.wonderheng.top"
 
 # Comment
-comment:
-    disqus: wonderheng
-    uyan: 2159611  # 有言id,登录有言官网申请
+comment: true
+   # disqus: wonderheng
+   # uyan: 2159611  # 有言id,登录有言官网申请
 
 # Social
 social:
