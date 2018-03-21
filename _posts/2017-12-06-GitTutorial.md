@@ -122,4 +122,4 @@ git branch 查看时如出现
 
 <br>
 
-转载请注明原地址：[豌豆恒的博客](http://www.wonderheng.top)  
+转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2017/12/GitTutorial/),谢谢！  

@@ -1471,17 +1471,6 @@ ArrayList总体来说比较简单，不过ArrayList还有以下一些特点：
 	⑨ contains(E)需要遍历数组
     
 	⑩ 使用iterator遍历可能会引发多线程异常
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/03/ArrayList%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/)，谢谢！
