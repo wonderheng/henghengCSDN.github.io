@@ -18,7 +18,7 @@ tag: 工具
 提供两种方法参考：      
 
 > 1、通过homebrew安装Git，具体方法请参考[homebrew的文档](http://brew.sh/)      
-> 2、直接从AppStore安装Xcode，Xcode集成了Git，不过默认没有安装，你需要运行Xcode。     
+> 2、直接从AppStore安装Xcode，Xcode集成了Git，不过默认没有安装，你需要运行Xcode。  
 
 **在Windows上安装Git**      
 
