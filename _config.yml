@@ -31,7 +31,14 @@ social:
     #id: UA-84134159-3   
     #host: auto  
 
-
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo:
+    - git@github.com:henghengCSDN/henghengCSDN.github.io.git
+    - git@git.coding.net:wonderheng/wonderheng.coding.me.git
+  branch: master
 # 《--------------------------------------》
 #
 #
