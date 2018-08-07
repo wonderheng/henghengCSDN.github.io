@@ -59,8 +59,8 @@ tag: javaSE学习笔记整理
 					}
 				}
 			}
-
 			
+
 ### 03Properties集合的方法load
 	* A: Properties集合的方法load
 		* a: 方法介绍
@@ -122,24 +122,23 @@ tag: javaSE学习笔记整理
 				}				
 			}
 
-
 ### 05对象的序列化与反序列化
 	* A: 对象的序列化与反序列化
 		* a: 基本概念
 			* 对象的序列化
-				* 对象中的数据，以流的形式，写入到文件中保存过程称为写出对象，对象的序列化
+				* 对象中的数据，以二进制流的形式，在网络传输或写入到文件中保存过程称为写出对象的序列化
 				* ObjectOutputStream将对象写道文件中，实现序列化
 			* 对象的反序列化
 				* 在文件中，以流的形式，将对象读出来，读取对象，对象的反序列化
 				* ObjectInputStream 将文件对象读取出来
 					
+
 ### 06ObjectOutputStream流写对象
 	* A: ObjectOutputStream流写对象
 		* a: 简单介绍
 			 *  IO流对象,实现对象Person序列化,和反序列化
 			 *  ObjectOutputStream 写对象,实现序列化
 			 *  ObjectInputStream 读取对象,实现反序列化
-
 		* b: 案例代码
 			public class Person implements Serializable{
 				public String name;
@@ -192,6 +191,7 @@ tag: javaSE学习笔记整理
 				}
 			}
 			
+
 ### 07ObjectInputStream流读取对象
 	* A: ObjectInputStream流读取对象
 		* a: 简单介绍
@@ -226,6 +226,7 @@ tag: javaSE学习笔记整理
 				}				
 			}
 						
+
 ### 08静态不能序列化
 	* A: 静态不能序列化
 		* a: 原因
@@ -235,16 +236,18 @@ tag: javaSE学习笔记整理
 ### 09transient关键字
 	* A: transient关键字
 		* a: 作用
-			* 被transient修饰的属性不会被序列化
+			* Serializable默认会将对象中所有属性进行序列化，但是被transient修饰的属性不会被序列化
 			* transient关键字只能修饰成员变量
 			
 		
+
 ### 10Serializable接口的含义
 	* A：Serializable接口的含义
 		* a: 作用
-			* 给需要序列化的类上加标记。该标记中没有任何抽象方法
+			* 标记接口，给需要序列化的类上加标记，JVM识别此类自动序列化。该标记中没有任何抽象方法
 			* 只有实现了 Serializable接口的类的对象才能被序列化
 				
+
 ### 11序列化中的序列号冲突问题
 	* A: 序列化中的序列号冲突问题
 		* a: 问题产生原因
@@ -264,7 +267,6 @@ tag: javaSE学习笔记整理
 				public /*transient阻止成员变量序列化*/ int age;
 				//类,自定义了序列号,编译器不会计算序列号
 				private static final long serialVersionUID = 1478652478456L;
-
 				public Person(String name, int age) {
 					super();
 					this.name = name;
@@ -310,15 +312,14 @@ tag: javaSE学习笔记整理
 				* 接收File类型,接收字符串文件名,接收字节输出流OutputStream
 			* PrintWriter构造方法
 				* 接收File类型,接收字符串文件名,接收字节输出流OutputStream, 接收字符输出流Writer
-
 				
+
 ### 14打印流输出目的是File对象
 	* A: 打印流输出目的是File对象
 		* a: 案例代码
 			public class PrintWriterDemo {
 				public static void main(String[] args) throws  IOException {
 					function_3();
-
 				}
 				
 				/*
@@ -335,6 +336,7 @@ tag: javaSE学习笔记整理
 				}
 			}
 			
+
 ### 15输出语句是char数组
 	* A: 输出语句是char数组
 		* a: 案例代码
@@ -355,13 +357,13 @@ tag: javaSE学习笔记整理
 				* 因为api中定义了打印字符数组的方法，其底层是在遍历数组中的元素
 				* 而其他打印数组的方法，都是将数组对象编程Object，其底层再将对象编程String，调用了String s = String.valueOf(x);方法
 		
+
 ### 16打印流输出目的是String和流对象
 	* A: 打印流输出目的是String和流对象
 		* a: 案例代码
 			public class PrintWriterDemo {
 				public static void main(String[] args) throws  IOException {
 					function_2();
-
 				}
 					
 				/*
@@ -387,6 +389,7 @@ tag: javaSE学习笔记整理
 				
 			}
 			
+
 ### 17打印流开启自动刷新
 	* A: 打印流开启自动刷新
 		* 案例代码
@@ -412,6 +415,7 @@ tag: javaSE学习笔记整理
 				}
 			}
 			
+
 ### 18打印流复制文本文件
 	* A: 打印流复制文本文件
 		* a: 案例代码
@@ -433,6 +437,7 @@ tag: javaSE学习笔记整理
 				}
 			}
 			
+
 ### 19commons-io工具类介绍
 	* A: commons-io工具类介绍
 		* a: 工具类介绍
@@ -441,6 +446,7 @@ tag: javaSE学习笔记整理
 			* commons-io-2.4-sources.jar工具类中原代码
 			* docs是帮助文档
 			
+
 ### 20使用工具类commons_io
 	* A: 使用工具类commons_io
 		* a: 导入jar包

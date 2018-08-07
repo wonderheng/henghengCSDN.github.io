@@ -14,6 +14,7 @@ tag: javaSE学习笔记整理
 		* b: 正则表达式的作用
 		* 比如注册邮箱,邮箱有用户名和密码,一般会对其限制长度,这个限制长度的事情就是正则表达式做的
 		
+
 ### 02正则表达式语法规则
 	* A: 正则表达式语法规则
 		* a: 字符
@@ -44,7 +45,6 @@ tag: javaSE学习笔记整理
 			* X{n,}  X，至少 n 次 
 			* X{n,m} X，至少 n 次，但是不超过 m 次
 
-
 ### 03正则表达式练习和相关的String类方法
 	* A: 正则表达式练习和相关的String类方法
 		* a: boolean matches(String 正则的规则)
@@ -56,7 +56,6 @@ tag: javaSE学习笔记整理
 		* c: String replaceAll( String 正则规则,String 字符串)
 			* "abc0123".repalceAll("[\\d]","#")	
 			* 按照正则的规则,替换字符串
-	
 	
 ### 04正则表达式匹配练习
 	* A: 正则表达式匹配练习
@@ -92,7 +91,6 @@ tag: javaSE学习笔记整理
 				}
 			}
 	
-
 ### 05正则表达式切割练习
 	* A: 正则表达式切割练习
 		* a: 案例代码
@@ -101,7 +99,6 @@ tag: javaSE学习笔记整理
 					split_1();
 					split_2();
 					split_3();
-
 				}
 				
 				/*
@@ -144,8 +141,8 @@ tag: javaSE学习笔记整理
 					}
 				}
 			}		
-
 			
+
 ### 06正则表达式替换练习
 	* A: 正则表达式替换练习
 		* a: 案例代码
@@ -193,6 +190,7 @@ tag: javaSE学习笔记整理
 				}
 			}
 				
+
 ### 08毫秒值概念 
 	* A: 毫秒值概念
 		* a: 时间和日期类
@@ -206,7 +204,6 @@ tag: javaSE学习笔记整理
 			 * 时间2088年8月8日    
 			 * 时间和日期的计算，必须依赖毫秒值
 
-
 ### 09Date类的构造方法
 	* A: Date类的构造方法
 		* a: 空参构造
@@ -214,15 +211,14 @@ tag: javaSE学习笔记整理
 		* b: 带参构造
 			* public Date(long times)
 		
-
 		
+
 ### 10Date类的get和set方法			
 	* A：Date类的get和set方法
 		* public long getTime()	
 			* 将当前的日期对象，转为对应的毫秒值
 		* public void setTime(long times);
 			* 根据给定的毫秒值，生成对应的日期对象
-
 
 ### 11日期格式化SimpleDateFormat
 	* A: 日期格式化SimpleDateFormat
@@ -242,8 +238,8 @@ tag: javaSE学习笔记整理
 				* mm      小时中的分钟
 	 			* ss      秒
 	 			* yyyy年MM月dd日 HH点mm分钟ss秒  汉字修改,: -  字母表示的每个字段不可以随便写
-
 				
+
 ### 12字符串转成日期对象
 	* A: 字符串转成日期对象
 		* a: 使用步骤
@@ -252,7 +248,6 @@ tag: javaSE学习笔记整理
 			* 2: 子类对象,调用方法 parse 传递String,返回Date
 				* 注意: 时间和日期的模式yyyy-MM-dd, 必须和字符串中的时间日期匹配
 
-
 ### 13Calendar类_1
 	* A: Calendar类_1
 		* a: 日历类(抽象类)
@@ -260,7 +255,6 @@ tag: javaSE学习笔记整理
 		* b: 创建对象
 			* Calendar类写了静态方法 getInstance() 直接返回了子类的对象
 			* 不需要直接new子类的对象,通过静态方法直接获取
-
 
 ### 14Calendar类_2
 	* A: Calendar类_2
@@ -278,6 +272,7 @@ tag: javaSE学习笔记整理
 			System.out.println(year + "年" + month + "月" + day + "日");
 			
 			
+
 ### 15Calendar类_3
 	* A: Calendar类_3
 		* a: 成员方法
@@ -366,7 +361,6 @@ tag: javaSE学习笔记整理
 				}
 				
 			}
-
 
 ### 18日期练习_闰年计算
 	* A: 日期练习_闰年计算
