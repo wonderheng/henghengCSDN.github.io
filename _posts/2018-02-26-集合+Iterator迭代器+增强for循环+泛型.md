@@ -38,8 +38,8 @@ tag: javaSE学习笔记整理
 ### 02集合的学习目标
 	   集合，集合是java中提供的一种容器，可以用来存储多个数据。
      在前面的学习中，我们知道数据多了，可以使用数组存放或者使用ArrayList集合进行存放数据。那么，集合和数组既然都是容器，它们有啥区别呢？
-       数组的长度是固定的。集合的长度是可变的。
-       集合中存储的元素必须是引用类型数据
+       数组的长度是固定的。集合的长度是可变的。
+       集合中存储的元素必须是引用类型数据
 
 ### 03集合继承关系图
 ```
@@ -54,9 +54,9 @@ tag: javaSE学习笔记整理
     
     b:集合继承体系
      这说明我们在使用ArrayList类时，该类已经把所有抽象方法进行了重写。那么，实现Collection接口的所有子类都会进行方法重写。
-       Collecton接口常用的子接口有：List接口、Set接口
-       List接口常用的子类有：ArrayList类、LinkedList类
-       Set接口常用的子类有：HashSet类、LinkedHashSet类
+       Collecton接口常用的子接口有：List接口、Set接口
+       List接口常用的子类有：ArrayList类、LinkedList类
+       Set接口常用的子类有：HashSet类、LinkedHashSet类
 
                               Collection 接口     
                                    |
@@ -68,6 +68,7 @@ tag: javaSE学习笔记整理
  |              |                                             |            |
 ArrayList类    LinkedList类                                 HashSet类     LinkedHashSet类
 ```
+
 ### 04集合Collection的方法
 	A:集合Collection的方法
      /*
@@ -124,7 +125,6 @@ ArrayList类    LinkedList类                                 HashSet类     Lin
         boolean b = coll.contains("itcast");
         System.out.println(b);
       }
-
 
       /*
        * Collection接口的方法
@@ -331,6 +331,7 @@ ArrayList类    LinkedList类                                 HashSet类     Lin
         System.out.println(arr[0]);
       }
 ```
+
 ### 12增强for循环遍历集合 
 ```
       A:增强for循环遍历集合  
