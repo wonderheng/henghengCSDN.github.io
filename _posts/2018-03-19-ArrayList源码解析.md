@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "浅谈集合 -- ArrayList 源码分析"
+title: ArrayList-源码剖析
 date: 2018-03-19   
-tag: java
+tag: javaSE学习心得
 ---
 
 # ArrayList 简介
@@ -12,11 +12,12 @@ ArrayList 实现了RandmoAccess接口，即提供了随机访问功能。RandmoA
 ArrayList 实现了Cloneable接口，即覆盖了函数clone()，能被克隆。ArrayList 实现java.io.Serializable接口，这意味着ArrayList支持序列化，能通过序列化去传输。
 
 　　和Vector不同，ArrayList中的操作不是线程安全的！所以，建议在单线程中才使用ArrayList，而在多线程中可以选择Vector或者CopyOnWriteArrayList。
-     
+ 
 　　下面让我们翻开ArrayList的源代码，看看一些常用的方法属性，以及一些需要注意的地方
 
 # ArrayList 源码
-```
+
+```java
 /** 
  * ArrayList
  * - 继承：抽象类 java.util.AbstractList<E> 
