@@ -240,7 +240,6 @@ public class CallName{
 
 ### 8. 库存案例添加商品信息
 * A: 栗子代码
-
 ```java
 /*
    定义,.描述商品的类
@@ -262,7 +261,6 @@ public class Goods{
 	int count ;
 }
 ```
-<br>
 ```java
 /*
     实现库存管理案例:
