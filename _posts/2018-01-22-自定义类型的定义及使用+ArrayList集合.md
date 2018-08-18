@@ -6,6 +6,7 @@ tag: javaSE学习心得
 ---
 
 ### 1. 引用数据类型_类
+
 * A: 数据类型
 	* a: java中的数据类型分为：基本类型和引用类型
 * B: 引用类型的分类
@@ -14,6 +15,7 @@ tag: javaSE学习心得
 	
 
 ### 2. 自定义类的概述
+
 * A: 自定义类的概述
 	* java代码映射成现实事物的过程就是定义类的过程。
 	* 举例：
@@ -22,6 +24,7 @@ tag: javaSE学习心得
 			
 		
 ### 3. 自定义类的格式
+
 * A: 自定义类的格式
 	* a: 使用类的形式,对现实中的事物进行描述。
 	* b: 事物由方法和属性两部分组成。
@@ -41,6 +44,7 @@ tag: javaSE学习心得
 ```
 
 ### 4. 自定义的手机类
+
 * A: 自定义的手机类
 	* a: 案栗代码
 ```java
@@ -55,6 +59,7 @@ tag: javaSE学习心得
 ```
 
 ### 5. 测试手机类
+
 * A: 调用方法执行流程
 	* a: 实现引用类型的步骤
 		* 1: 导入包 , 类都是在同一个文件夹,不需要导入包
@@ -82,18 +87,19 @@ tag: javaSE学习心得
 ```
 
 ### 6. 自定义类的内存图
-* A: 自定义类的内存图
+
 <div align="center">
 	<img src="/images/posts/2018-01-22/1.JPG" height="300" width="500">  
 </div>
 
 ### 7. 两个引用类型变量内存图
-* A: 自定义类的内存图_1
+
 <div align="center">
 	<img src="/images/posts/2018-01-22/2.JPG" height="300" width="500">  
 </div>
 
 ### 8. 自定义类的练习
+
 * A: 实体类的代码
 ```java
 /*
@@ -172,4 +178,4 @@ public class Test{
 
 <br>
 
-转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](https://www.wonderheng.top/2018/01/自定义类型的定义及使用/)谢谢！
+转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/01/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%AE%9A%E4%B9%89%E5%8F%8A%E4%BD%BF%E7%94%A8/)谢谢！

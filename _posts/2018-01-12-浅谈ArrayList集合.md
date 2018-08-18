@@ -506,4 +506,4 @@ public class Shopp{
 
 <br>
 
-转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](https://www.wonderheng.top/2018/01/浅谈ArrayList集合/)谢谢！
+转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/01/%E6%B5%85%E8%B0%88ArrayList%E9%9B%86%E5%90%88/)谢谢！
