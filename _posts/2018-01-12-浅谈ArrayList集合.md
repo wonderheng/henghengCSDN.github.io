@@ -34,6 +34,7 @@ public class ArrayListDemo{
 	}
 }
 ```
+
 ### 3. ArrayList的常见方法
 * A: ArrayList的常见方法
 	* a: add(参数) 向集合中添加元素
@@ -68,6 +69,7 @@ public class ArrayListDemo_1{
 	}
 }
 ```
+
 ### 4. ArrayList集合的遍历
 * A: 举个栗子
 ```java
@@ -95,6 +97,7 @@ public class ArrayListDemo_2{
 	}
 }
 ```
+
 ### 5. ArrayList补充方法
 * A: ArrayList补充方法
 	* a: add(int 索引,存储的元素) 	将元素添加到指定的索引上
@@ -234,11 +237,8 @@ public class CallName{
 	}
 }
 ```
-### 8. 库存案例分析加入集合
-* A: 库存案例分析加入集合
-	* a: 参见\day06\day06(面向对象\day06_source\对象内存图.JPG
 
-### 9. 库存案例添加商品信息
+### 8. 库存案例添加商品信息
 * A: 栗子代码
 ```java
 /*
@@ -301,7 +301,8 @@ public class Shopp{
 	}
 }
 ```
-### 10. 库存案例查看库存清单
+
+### 9. 库存案例查看库存清单
 * A: 栗子代码
 ```java
 /*
@@ -372,7 +373,8 @@ public class Shopp{
 	}
 }
 ```
-### 11. 库存案例修改库存清单及测试代码的实现
+
+### 10. 库存案例修改库存清单及测试代码的实现
 * A: 栗子代码
 ```java
 /*
