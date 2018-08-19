@@ -57,9 +57,8 @@ class Person {
 
 ### 3. 私有化Person类带get,set
 * 标准代码
-```java
-package cn.itcast.demo05;
 
+```java
 /*
  *   类描述人:
  *     属性: 姓名和年龄
@@ -102,10 +101,10 @@ public class Person {
 	}
 }
 ```
-* 标准测试代码
-```java
-package cn.itcast.demo05;
 
+* 标准测试代码
+
+```java
 public class PersonTest {
 	public static void main(String[] args) {
 		Person p = new Person();
@@ -278,4 +277,4 @@ public class Student {
 
 <br>
 
-转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/02/面向对象思想+private,this关键字/),谢谢！
+转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/02/%E6%B5%85%E8%B0%88private,this%E5%85%B3%E9%94%AE%E5%AD%97%E5%92%8Cget-set%E6%96%B9%E6%B3%95/),谢谢！
