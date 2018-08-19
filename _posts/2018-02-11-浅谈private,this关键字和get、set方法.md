@@ -233,7 +233,7 @@ public class Test {
 		}
 	}
 	/*
-	 2.打印全班同学每一个人的信息（姓名、年龄）
+	 * 2.打印全班同学每一个人的信息（姓名、年龄）
 	 */
 	public static void printStudent (ArrayList<Student> list) {
 		for (int i = 0; i < list.size(); i++) {
@@ -252,6 +252,7 @@ public class Test {
 		System.out.println("被随机点名的同学："+s.getName() + "，年龄:" + s.getAge());
 	}
 }
+
 /*
  * 学生信息类
  */
