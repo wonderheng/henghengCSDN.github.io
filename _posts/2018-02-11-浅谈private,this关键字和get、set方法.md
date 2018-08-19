@@ -125,6 +125,7 @@ public class PersonTest {
 * A.什么时候用
 	* 当类中存在成员变量和局部变量同名的时候为了区分，就需要使用this关键字
 * B.代码
+
 ```java
 class Person {
 	private int age;
@@ -148,41 +149,42 @@ class PersonDemo {
 ### 5. this的年龄比较
 * A.需求：在Person类中定义功能，判断两个人是否是同龄人
 * B.代码
+
 ```java
-	class Person {
-		private int age;
-		private String name;
-		
-		public int getAge() {
-			return age;
-		}
+class Person {
+	private int age;
+	private String name;
 	
-		public void setAge(int age) {
-			this.age = age;
-		}
-	
-		public String getName() {
-			return name;
-		}
-	
-		public void setName(String name) {
-			this.name = name;
-		}
-	
-		public void speak() {
-			System.out.println("name=" + this.name + ",age=" + this.age);
-		}
-	
-		// 判断是否为同龄人
-		public boolean equalsAge(Person p) {
-			// 使用当前调用该equalsAge方法对象的age和传递进来p的age进行比较
-			// 由于无法确定具体是哪一个对象调用equalsAge方法，这里就可以使用this来代替
-			/*
-			 * if(this.age == p.age) { return true; } return false;
-			 */
-			return this.age == p.age;
-		}
+	public int getAge() {
+		return age;
 	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void speak() {
+		System.out.println("name=" + this.name + ",age=" + this.age);
+	}
+
+	// 判断是否为同龄人
+	public boolean equalsAge(Person p) {
+		// 使用当前调用该equalsAge方法对象的age和传递进来p的age进行比较
+		// 由于无法确定具体是哪一个对象调用equalsAge方法，这里就可以使用this来代替
+		/*
+		 * if(this.age == p.age) { return true; } return false;
+		 */
+		return this.age == p.age;
+	}
+}
 ```
 
 ### 6. 举个栗子-随机点名器
@@ -192,6 +194,7 @@ class PersonDemo {
 	总览全班同学姓名
 	随机点名其中一人，打印到控制台
 * B.代码
+
 ```java
 import java.util.ArrayList;
 import java.util.Random;
