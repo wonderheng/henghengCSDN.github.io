@@ -90,6 +90,7 @@ class Demo {
 * A：特点:
 	* 被static修饰的成员变量属于类，不属于这个类的某个对象。（也就是说，多个对象在访问或修改static修饰的成员变量时，其中一个对象将static成员变量值进行了修改，其他对象中的static成员变量值跟着改变，即多个对象共享同一个static成员变量）
 * B: 代码演示
+
 ```java
 class Demo {
 	public static int num = 100;
@@ -197,4 +198,4 @@ Inter.COUNT
 
 <br>
 
-转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/02/final和static关键字+匿名对象等/),谢谢！
+转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/02/final%E5%92%8Cstatic%E5%85%B3%E9%94%AE%E5%AD%97/),谢谢！
