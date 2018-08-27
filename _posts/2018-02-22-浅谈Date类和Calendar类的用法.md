@@ -5,34 +5,31 @@ date: 2018-02-22
 tag: javaSE学习心得 
 ---
 
-### 1. 毫秒值概念 
-* A: 毫秒值概念
-	* a: 时间和日期类
-		* `java.util.Date`
-	* b: 毫秒概念
-		* 1000毫秒=1秒
-	* c: 毫秒的0点
-		 * `System.currentTimeMillis()` 返回值long类型参数
-		 * 获取当前日期的毫秒值   3742769374405    
-		 * 时间原点; 公元1970年1月1日,午夜0:00:00 英国格林威治  毫秒值就是0
-		 * 时间2088年8月8日    
-		 * 时间和日期的计算，必须依赖毫秒值
+### 1. 毫秒值概念
+* a: 时间和日期类
+	* `java.util.Date`
+* b: 毫秒概念
+	* 1000毫秒=1秒
+* c: 毫秒的0点
+	 * `System.currentTimeMillis()` 返回值long类型参数
+	 * 获取当前日期的毫秒值   3742769374405    
+	 * 时间原点; 公元1970年1月1日,午夜0:00:00 英国格林威治  毫秒值就是0
+	 * 时间2088年8月8日    
+	 * 时间和日期的计算，必须依赖毫秒值
 
 ### 2. Date类的构造方法
-* A: Date类的构造方法
-	* a: 空参构造
-		* `public Date()`
-	* b: 带参构造
-		* `public Date(long times)`
+* a: 空参构造
+	* `public Date()`
+* b: 带参构造
+	* `public Date(long times)`
 
-### 3. Date类的get和set方法			
-* A：Date类的get和set方法
-	* public long getTime()	
-		* 将当前的日期对象，转为对应的毫秒值
-	* public void setTime(long times);
-		* 根据给定的毫秒值，生成对应的日期对象
+### 3. Date类的get和set方法
+* `public long getTime()`	
+	* 将当前的日期对象，转为对应的毫秒值
+* `public void setTime(long times);`
+	* 根据给定的毫秒值，生成对应的日期对象
 
-### 4. 日期格式化`SimpleDateFormat`
+### 4. 日期格式化SimpleDateFormat
 * a: 对日期进行格式化(自定义)
 	* 对日期格式化的类 `java.text.DateFormat` 抽象类, 普通方法,也有抽象的方法
 	* 实际使用是子类 `java.text.SimpleDateFormat` 可以使用父类普通方法,重写了抽象方法
@@ -138,7 +135,7 @@ public static void function_2() {
 }
 ```
 
-### 7. 日期练习--计算活了多少天
+### 6. 日期练习--计算活了多少天
 
 ```java
 /*
@@ -174,7 +171,7 @@ public static void function() throws Exception {
 }
 ```
 
-### 18日期练习_闰年计算
+### 7. 日期练习_闰年计算
 
 ```java
 /*
@@ -196,4 +193,4 @@ public static void function_1(){
 
 <br>
 
-转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/02/正则表达式+Date类和Calendar类的用法/),谢谢！
+转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/02/%E6%B5%85%E8%B0%88Date%E7%B1%BB%E5%92%8CCalendar%E7%B1%BB%E7%9A%84%E7%94%A8%E6%B3%95/),谢谢！
