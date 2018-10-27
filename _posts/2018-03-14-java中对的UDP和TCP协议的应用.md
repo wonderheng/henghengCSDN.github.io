@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 浅谈java中的UDP和TCP协议
+title: java中对的UDP和TCP协议的应用
 date: 2018-03-14
 
 tag: javaSE学习心得 
@@ -751,4 +751,4 @@ public class TCPClient {
 
 <br>
 
-转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/03/浅谈java中的UDP和TCP协议),谢谢！
+转载请注明原地址：[wonderheng的博客](http://www.wonderheng.top) » [点击阅读原文](http://www.wonderheng.top/2018/03/java中对的UDP和TCP协议的应用),谢谢！
